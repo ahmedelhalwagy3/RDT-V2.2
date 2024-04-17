@@ -4,6 +4,7 @@ from sender import SenderProcess, RDTSender
 import sys
 
 if __name__ == '__main__':
+    x=5
     args = dict([arg.split('=', maxsplit=1) for arg in sys.argv[1:]])
     print(args)
     msg = args['msg']
